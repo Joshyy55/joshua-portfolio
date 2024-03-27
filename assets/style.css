@@ -11,6 +11,7 @@
 .start {
     font-size: 25px;
     justify-content: center;
+    margin-top: 15px;
 }
 
 .links {
@@ -18,8 +19,24 @@
     justify-content: flex-end;
     margin-right: 100px;
     gap: 30px;
-    font-size: 20px;
+    font-size: 27px;
+    margin-top: -15px;
 }
+
+.links a {
+    text-decoration: none;
+    display: flex;
+    text-decoration: double;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.913);
+    text-align: center;
+}
+ #contacts a {
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.913);
+    text-decoration: wavy;
+ }
+
 
 .info {
     width: 50%;
@@ -60,6 +77,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin-top: 10px;
 }
 
 
